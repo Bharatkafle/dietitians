@@ -1,0 +1,53 @@
+ 
+ .card{
+  z-index: 1;
+ }
+ .card-body_header{
+  z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.card-body_header svg{
+    color: var(--bs-green);
+}
+.Cardsection_header {
+    margin-bottom: 30px;
+}
+.Cardsection_header__main{
+    padding-top: 100px;
+}
+.Cardsection_header__main{
+    background-color: white;
+}
+
+/* style.css */
+.card {
+    transition: 2s ease-out; /* Add a smooth transition for background color */
+  }
+  
+  .card:hover {
+    background-color: lightgray; /* Change the background color when hovering */
+    transform: scale(1.1)
+  }
+  
+  .card:hover .card-body_header svg {
+    opacity: 1; /* Show the arrow icon when hovering */
+  }
+  
+  .cardsection__last{
+    margin-top: 20px;
+    box-shadow: 0px 3px 17px -5px rgba(0,0,0,0.75);
+    padding: 20px 10px 20px 10px;
+
+  }
+
+  @media (max-width: 768px) {
+    .card:nth-child(1){
+        margin-bottom: 10px;
+    }
+    .cardsection__last-sec{
+        flex-direction: column;
+    }
+}

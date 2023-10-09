@@ -1,0 +1,66 @@
+.form-floating{
+    margin-bottom: 10px;
+}
+.input{
+    z-index: 100;
+}
+.input input{
+    margin-bottom: 10px;
+    padding: 10px 0 10px 0;
+    border: 1px solid  #00A380;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #495057;
+    font-family: 'AR One Sans', sans-serif;
+    cursor: pointer;
+    transition: 0.2s ease;
+    text-transform: capitalize;;
+}
+.input input{
+    outline: none !important;
+    
+} 
+.input input:focus{
+
+}
+
+.form-floating:focus{
+    outline: none !important;
+}
+select{
+    padding: 10px 0 10px 0;
+    margin-bottom: 10px;
+    border: 1px solid  #00A380;
+}
+
+select:focus{
+    border: 1px solid  #00A380; 
+    outline: none;
+}
+option:hover{
+    background-color: #00A380 !important;
+}
+.button button{
+    width: 100%;
+    padding: 10px 0 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #495057;
+    font-family: 'AR One Sans', sans-serif;
+    cursor: pointer;
+    transition: 0.2s ease;
+    text-transform: capitalize;
+  
+}
+.button button:focus{
+    outline: none;
+    border: 1px solid #00A380;
+}
+.button button{
+    border: none;
+    border: 1px solid #00A380;
+}
+.button button:hover{
+    background-color: #00A380;
+}

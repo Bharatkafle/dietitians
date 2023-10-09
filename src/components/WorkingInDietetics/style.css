@@ -1,0 +1,31 @@
+.workingDietetics{
+
+z-index: 1;
+    background-color: azure;
+    padding:  40px 0  40px 0 ;
+    margin-top: 50px;
+} 
+@media (max-width: 768px){
+    .workingDietetics{
+        background: #FBEAFF;
+        padding:  20px 0  20px 0 ;
+        margin-top: 50px;
+    } 
+    .workingDietetics{
+        margin-bottom: 20px;
+    }
+    .workingDietetics-heading{
+        margin-bottom: 25px;
+    }
+    .workingDieteticsparagraph{
+        margin-bottom: 25px;
+       }
+       .workingDietetics-desc{
+        margin-bottom: 10px;
+       }
+       .workingDietetics{
+        margin-top: 0;
+       }
+}
+
+

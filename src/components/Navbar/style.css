@@ -1,0 +1,114 @@
+.popup-element{
+  display: none;
+}
+
+.Navbar{
+
+  background-color: white;
+
+  padding-top:20px ;
+  padding-bottom: 20px;
+}
+.Navbar-menu ul li{
+  text-decoration: none;
+}
+.Navbar-menu ul li {
+    list-style: none;
+    white-space: nowrap;
+    margin-top: 10px;
+}
+.Navbar-menu ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    color: #495057;
+    font-family: 'AR One Sans', sans-serif;
+    cursor: pointer;
+    transition: 0.2s ease;
+    text-transform: capitalize;
+}
+.Navbar-menu ul li a:hover{
+  color: #00A380;
+  transition: 0.3 ease;
+}
+.Navbar-menu__searchicons svg{
+     color: #495057;
+     font-size: 35px;
+     cursor: pointer;
+}
+.Navbar-menu__searchicons svg :hover{
+ color: #00A380;
+ transition: 0.1s ease;
+}
+
+
+.Navbar-menu .nav-link.active {
+  transform: translateY(-15%);
+  color: #00A380;
+  /* Add other styles as needed */
+}
+
+.Navbar-menu--rightsection a{
+  font-size: 16px;
+    font-weight: bold;
+    color: #495057;
+    font-family: 'AR One Sans', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+.Navbar-menu--rightsection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Navbar-menu--rightsection a{
+ color:  #00A380;
+ text-transform: capitalize;
+}
+.Navbar-menu--rightsection a:hover{
+  color: #495057;
+}
+/* Apply styles for screens with a width less than or equal to 768px */
+@media (max-width: 1041px) {
+  .nav-item {
+     display: none;
+
+  }
+  .Navbar-small-screen-device{
+    display: flex;
+  }
+  .Navbar-menu__searchicons{
+   position: absolute ;
+   right: 40px;
+  }
+  .Navbar-menu--rightsection{
+    display: none;
+  }
+
+}
+.burger-menu{
+  display: none;
+}
+@media (min-width: 1041px){
+  .Navbar-small-screen-device{
+    display: none;
+  }
+  
+  
+}
+
+@media  (max-width: 1041px) {
+  .burger-menu {
+    display:inline;
+    position: absolute;
+    right: 100px;
+    margin-top: 10px;
+    cursor: pointer;
+    
+  }
+  .burger-menu svg {
+ font-size: 30px;
+  }
+}
+
+

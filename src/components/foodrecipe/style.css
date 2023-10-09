@@ -1,0 +1,17 @@
+.foodrecipe{
+    background-color: azure;
+    margin-top: 150px;
+    padding: 50px;
+}
+@media (max-width: 768px){
+    
+    .foodrecipe{
+        margin-top: 20px;
+    }
+    .container{
+        margin: 0;
+    }
+    .foodrecipe{
+        padding: 0;
+    }
+}
