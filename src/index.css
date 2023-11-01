@@ -44,7 +44,7 @@
 .paragraph{
 
     font-size: 12px;
-    font-weight: bold;
+  
     color: var(--bs-gray);
     font-family: 'AR One Sans', sans-serif;
     cursor: pointer;
