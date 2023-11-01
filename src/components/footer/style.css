@@ -1,7 +1,8 @@
 
 footer{
-    background-color: #00ABC9 ;
+    background-color: #D5D8DC ;
     padding: 30px;
+    margin-top: 150px;
 } 
 .footer_section-items a {
       text-decoration: none;
@@ -11,25 +12,25 @@ footer{
     margin-bottom: 30px;
     font-size: 20px;
     color: black;
-    font-family: 'AR One Sans', sans-serif;
+  
 
 }
 .footer_section-items a  span{
     font-family: 'AR One Sans', sans-serif;
     padding-bottom: 40px;
-  font-size: 11px;
+  font-size: 13px;
   color: var(--bs-secondary);
 }
 .footer_section-items a  span{
     transition: 1s ease;
 }
 .footer_section-items a  span:hover{
- color: greenyellow;
+opacity: 0.5;
 }
 .footer_section-items{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
 }
 @media (max-width: 768px){
     .footer_section-items{
