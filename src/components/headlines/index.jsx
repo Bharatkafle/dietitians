@@ -2,8 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 const HeadLines = ({ Heading,paragraph, tolink }) => {
   return (
-    <div>
-      <div className='mental-health_section-advice--top'>
+    <div  >
+      <div className='mental-health_section-advice--top '>
           <div className='mental-health_section-advice'>
             <div className='heading'>
             <h3>{Heading }</h3>

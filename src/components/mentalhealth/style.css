@@ -32,9 +32,16 @@
 .mental-health_section-searchheader{
     height: 13rem;
 }
+
 .mental-health_section-searchheader--img img{
-    height: 13rem;
-    width: 200%;
+    width: 100%;
+  height: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+   
+   
 
 } 
 .mental-health_section-searchheader h2{
