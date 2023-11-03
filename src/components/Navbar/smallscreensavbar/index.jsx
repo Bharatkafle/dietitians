@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom'; // Import Link
 import './style.css';
 import menuItems from '../../../data/index';
-import Logo from "../../../Assets/logo.png"
+import Logo from "../../../Assets/logo.jpeg"
 import { AiOutlineExport } from 'react-icons/ai';
 import { AiOutlineClose } from 'react-icons/ai';
 

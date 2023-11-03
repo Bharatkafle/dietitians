@@ -13,8 +13,12 @@
 
 
 
- .small__screenDevice--navbarlogo{
+ .small__screenDevice--navbarlogo img{
     margin-top: 30px;
+transform: translate(50%, 50%);
+margin-left: 25px;
+
+    
  }
 .small__screenDevice--navbar{
   z-index: 100;

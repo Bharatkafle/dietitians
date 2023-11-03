@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import Logo from "../../Assets/logo.png";
+import Logo from "../../Assets/logo.jpeg";
 import menuItems from "../../data";
 import { Link, NavLink } from "react-router-dom"; // Import NavLink
 import Layout from "../layout";

@@ -6,11 +6,15 @@
 
   background-color: white;
 
-  padding-top:20px ;
-  padding-bottom: 20px;
+ 
+ 
 }
 .Navbar-menu ul li{
   text-decoration: none;
+}
+.Navbar-section__logo img{
+  width: 100px;
+ 
 }
 .Navbar-menu ul li {
     list-style: none;
